@@ -1,6 +1,5 @@
 # Login com tema Light e Dark
 Layout criado com React Js
-responsivo
 
 ### Tema Light:
 ![Imagem aviso](https://github.com/LuizEduardodeLima/Layout-login-com-temas/blob/master/public/tema1.png)
