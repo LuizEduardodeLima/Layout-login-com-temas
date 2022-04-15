@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Secular One', sans-serif;
+}
+
+.App{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#light .box{
+  width: 400px;
+  height: 400px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 20px;
+}
+
+#dark .box{
+  width: 400px;
+  height: 400px;
+  background-color: rgba(73, 81, 118, 0.5);
+  border-radius: 20px;
+}
+
+#light{
+  background-image: url("../public/dia.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#dark{
+  background-image: url("../public/noite.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.login{
+  padding: 50px;
+  font-size: 25px;
+  text-align: center;
+  color: #4168e1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+}
+
+#light .login{
+  color: #4168e1;
+}
+
+#dark .login{
+  color: white;
+}
+
+#username{
+  margin-left: 15%;
+  width: 70%;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding: 10px;
+  border-radius: 20px;
+  outline: none;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#password{
+  margin-left: 15%;
+  width: 70%;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding: 10px;
+  border-radius: 20px;
+  outline: none;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.submit{
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5rem;
+  background-color: #4168e1;
+  width: 70%;
+  margin-left: 15%;
+  padding: 10px;
+
+}
+#light .submit{
+  background-color: #4168e1;
+}
+#dark .submit{
+  background-color: rgb(239, 84, 126);
+}
+
+.submit a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.logout{
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  color: #4168e1;
+  margin-top: 10px;
+}
+
+#light .logout{
+  color: #4168e1;
+}
+
+#dark .logout a{
+  color: #fff;
+}
+
+.switch{
+  width: 400px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.6);
+  margin-top: 15px;
+  padding: 15px;
+  font-size: 18;
+  color: #4168e1;
+  border-radius: 25px;
+}
+
+#ligth .switch{
+  color: #4168e1;
+}
+
+#dark .switch{
+  color: #fff;
+}
